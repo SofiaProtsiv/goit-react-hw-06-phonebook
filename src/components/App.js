@@ -1,8 +1,7 @@
 import { ReactComponent as AddUserBtn } from '../icons/addUser.svg';
 import { ReactComponent as CloseBtn } from '../icons/close.svg';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { connect } from 'react-redux';
-import shortid from 'shortid';
 
 import ContactForm from './ContactForm/index';
 import Filter from './Filter';
