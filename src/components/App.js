@@ -15,10 +15,6 @@ import IconButton from './IconButton';
 function App({ contacts }) {
   const [showModal, setShowModal] = useState(false);
 
-  useEffect(() => {
-    window.localStorage.setItem('contacts', JSON.stringify(contacts));
-  }, [contacts]);
-
   const toggleModal = () => {
     setShowModal(prevShowModal => !prevShowModal);
   };
